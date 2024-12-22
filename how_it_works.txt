@@ -1,0 +1,40 @@
+HOW CONTENT BATCH AUTOMATOR WORKS
+================================
+
+ONE-CLICK AUTOMATION!
+-------------------
+Just run a single batch file and everything happens automatically:
+- No manual steps
+- No switching between programs
+- No waiting for one analysis to finish before starting another
+
+WHAT IT DOES
+-----------
+Takes any text and analyzes it using AI in three different ways AT THE SAME TIME:
+1. Sentiment - checks emotions and tone
+2. Context - finds themes and messages
+3. Style - examines writing structure
+
+Then automatically combines everything into one final report.
+
+HOW TO USE
+----------
+1. Change 'basic3' in run_automator.bat to your conda environment name
+2. Set up your OpenAI API key
+3. THEN JUST ONE STEP:
+   Either:
+   - Put text files in the 'input' folder and run the batch file
+   OR
+   - Use direct command: run_automator.bat "Your text here"
+
+AUTOMATED PROCESS
+---------------
+The batch file automatically:
+1. Cleans out old results
+2. Launches all 3 analyzers simultaneously
+3. Monitors progress (waits up to 60 seconds)
+4. Creates final report in 'output' folder
+
+That's it! One click, and AI does all the work.
+
+Note: Everything is automated - just check output folder for results and logs if something goes wrong.

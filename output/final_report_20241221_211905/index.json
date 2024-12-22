@@ -1,0 +1,9 @@
+{
+  "timestamp": "20241221_211905",
+  "synthesis": "synthesis.txt",
+  "source_files": [
+    "sentiment_results.txt",
+    "context_results.txt",
+    "style_results.txt"
+  ]
+}
